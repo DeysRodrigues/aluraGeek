@@ -1,0 +1,118 @@
+.head__menu_desktop {
+
+    display: none;
+}
+
+.head__menu_mobile {
+    background-color: #fff;
+
+    display: flex;
+    flex-wrap: wrap;
+    height: 4.5rem;
+    padding: 1rem;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.head__banner-box {
+    color: #fff;
+    background-image: url('../assets/imagens/outros/banner.jpg');
+    background-size: 100% auto;
+
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    padding: 1rem;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    gap: 1rem;
+
+}
+
+.head__banner-box p {
+    font-weight: 700;
+    font-size: 0.875rem;
+}
+
+
+/* --- PARTE TABLET --- */
+@media(min-width: 768px) {
+
+
+    .head__menu_mobile {
+        display: none;
+    }
+
+    .head__menu_desktop {
+     
+        display: flex;
+        padding: 0 2rem;
+        height: 4.5rem;
+    }
+
+    .head__menu-content {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 8rem;
+        width: 100%;
+
+    }
+
+    .head__banner-box {
+        background-image: url('../assets/imagens/outros/banner-tablet.jpg');
+        height: 22rem;
+        padding: 2rem;
+
+
+    }
+
+    .head__banner-box h1 {
+        font-size: 3.25rem;
+    }
+
+    .head__banner-box p {
+        font-size: 1.375rem;
+    }
+
+    .btn-primary {
+        width: 25%;
+
+    }
+}
+
+/* --- PARTE DESKTOP --- */
+@media(min-width: 1080px) {
+
+    .head__menu_mobile {
+        display: none;
+    }
+
+    .head__menu_desktop {
+        padding: 0 9rem;
+        height: 4.5rem;
+    }
+
+    .head__menu-content {
+        justify-content: space-between;
+    }
+
+    .head__banner-box {
+        background-image: url('../assets/imagens/outros/banner-desktop.jpg');
+        height: 22rem;
+        padding: 9.5rem;
+        justify-content: flex-start;
+
+    }
+
+    .btn-primary {
+        width: 25%;
+
+    }
+}

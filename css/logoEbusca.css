@@ -1,0 +1,119 @@
+.head__menu_desktop {
+
+    display: none;
+}
+
+.box-logobusca {
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 60%;
+}
+
+.logo {
+
+    display: flex;
+    align-items: center;
+}
+
+.menu_mobile-img {
+
+    width: 1.77544rem;
+    height: 1.75rem;
+}
+
+.menu_mobile-text {
+
+    width: 4.47456rem;
+    height: 0.6475rem;
+}
+
+
+/* --- PARTE TABLET --- */
+@media(min-width: 768px) {
+    .head__menu_desktop {
+
+        display: flex;
+    }
+    .logo {
+
+        display: flex;
+        align-items: center;
+    }
+
+    .logo-icon {
+
+        width: 1.77544rem;
+        height: 1.75rem
+    }
+
+    .logo-text {
+        width: 4.47456rem;
+        height: 0.6475rem;
+        flex-shrink: 0;
+    }
+
+    /* ----- parte da barra de pesquisa ----- */
+    .box-busca {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 1rem;
+        padding: 0 1rem;
+        height: 2rem;
+        width: 15rem;
+        background-color: #F5F5F5;
+        border-radius: 1.25rem;
+
+    }
+
+    .box-busca input {
+
+        border: none;
+        background-color: transparent;
+    }
+
+    .box-busca button {
+
+        border: none;
+        background-color: transparent;
+    }
+
+    .ph-magnifying-glass {
+        color: #A2A2A2;
+        font-size: 1.3rem;
+
+    }
+
+}
+
+/* --- PARTE DESKTOP --- */
+@media(min-width: 1080px) {
+    .head__menu_desktop {
+
+        display: flex;
+    }
+    .box-logobusca {
+        gap: 3rem;
+        width: 65%;
+    }
+
+    .logo-icon {
+        width: 3.12481rem;
+        height: 3.125rem;
+
+    }
+
+    .logo-text {
+        width: 7.87519rem;
+        height: 1.15625rem;
+
+    }
+    .box-busca {
+
+        height: 2.5rem;
+        width: 24.5625rem;
+
+    }
+}

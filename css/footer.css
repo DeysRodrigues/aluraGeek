@@ -1,0 +1,101 @@
+.footer__content {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--cor-azul-clara-bg);
+    padding: 1rem;
+    gap: 1rem;
+
+}
+
+.logo {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo .logo-img {
+    width: 3.12481rem;
+    height: 3.125rem;
+}
+
+.logo .logo-link {
+
+    width: 7.87519rem;
+    height: 1.15625rem;
+    flex-shrink: 0;
+}
+
+.footer__content-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+
+}
+
+.footer__content-links a {
+    text-decoration: none;
+    color: var(--cor-cinza-escura);
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.footer__rodape {
+
+    display: flex;
+    padding: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer__rodape p {
+    color: var(--cor-cinza-escura);
+
+    text-align: center;
+    font-size: .9rem;
+    font-weight: 500;
+}
+
+/* --- PARTE TABLET --- */
+@media(min-width: 768px) {
+    .footer__content {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+    }
+
+    .footer__content-init {
+
+        width: 35%;
+        align-items: flex-start;
+        gap: 1rem;
+    }
+
+    .footer__content-links{
+      align-items: flex-start;
+    }
+}
+
+/* --- PARTE DESKTOP --- */
+@media(min-width: 1080px) {
+
+    .footer__content {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+    }
+
+    .footer__content-init {
+
+        width: 40%;
+        align-items: flex-start;
+        gap: 1rem;
+    }
+
+    .footer__content-links{
+      align-items: flex-start;
+    }
+}
