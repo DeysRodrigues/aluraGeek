@@ -50,3 +50,20 @@
     border: none;
     padding: 1rem;
 }
+
+/* --- PARTE TABLET --- */
+@media(min-width: 768px) {
+
+}
+
+/* --- PARTE DESKTOP --- */
+@media(min-width: 1080px) {
+    .principal {
+
+        padding: 1rem 9rem;
+    }
+    .content-form {
+
+        padding: 0 16rem;
+    }
+ }
