@@ -17,7 +17,7 @@
 }
 
 .form-login span {
-color: var(--cor-cinza-escura);
+    color: var(--cor-cinza-escura);
     font-size: 1rem;
     font-style: normal;
     font-weight: 700;
@@ -30,6 +30,7 @@ color: var(--cor-cinza-escura);
     background: var(--preto-branco, #FFF);
     width: 100%;
     padding: 0 1rem;
+    border-bottom: 1px solid #a7a7a7;
 
     ;
 }
@@ -62,4 +63,26 @@ input:focus {
     color: #FFF;
     width: 6.8125rem;
     padding: 0.75rem 1rem;
+}
+
+/* --- PARTE TABLET --- */
+@media(min-width: 768px) {
+    .content-form {
+        padding: 2rem;
+    }
+    .form-login {
+
+        width: 17.1875rem;
+    }
+}
+
+/* --- PARTE DESKTOP --- */
+@media(min-width: 1080px) {
+    .content-form {
+        padding:5rem;
+    }
+    .form-login {
+
+        width: 26.4375rem;
+    }
 }
