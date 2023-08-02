@@ -1,0 +1,52 @@
+.principal {
+
+    padding: 1rem;
+}
+
+.form-add {
+    gap: 1rem;
+}
+
+.form-add label {
+    color: #A2A2A2;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.form-add input {
+
+    border: none;
+    width: 100%;
+}
+
+.add-url,
+.add-categoria,
+.add-nome,
+.add-preco,
+.add-descricao {
+
+
+    padding: 8px 0.70rem;
+    display: flex;
+    flex-direction: column;
+
+    gap: 0.4375rem;
+
+    background-color: #fff;
+    border-bottom: 1px solid #a7a7a7;
+
+}
+.add-descricao {
+
+    height: 5rem;
+    padding: 1rem;
+}
+.btn-add {
+    color: #fff;
+    background-color: var(--cor-azul);
+    width: 100%;
+
+    border: none;
+    padding: 1rem;
+}

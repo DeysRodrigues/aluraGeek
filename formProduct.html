@@ -12,9 +12,9 @@
 
     <link rel="stylesheet" href="css/logoEbusca.css">
     <link rel="stylesheet" href="css/formHome.css">
-    <link rel="stylesheet" href="css/formLogin.css">
     <link rel="stylesheet" href="css/head.css">
     <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/formAddProduto.css">
     <link rel="stylesheet" href="css/base.css">
    
 
@@ -61,19 +61,36 @@
 
         </section>
     </header>
+
     <main class="principal">
 
         <section class="content-form">
-            <form action="" class="form-login add-flexcolumn">
-                <span>Iniciar Sessão</span>
-                <div class="form-email">
-                    <input type="text" id="nome" placeholder="Escreva seu e-mail">
+
+            <form action="" class="form-add add-flexcolumn">
+               <h2>Adicionar novo produto</h2>
+                <div class="add-url">
+                    <label for="url">Url da imagem</label>
+                    <input type="text" id="url">
                 </div>
-                <div class="form-senha">
-                    <input type="text" id="mensagem" placeholder="Escreva sua senha">
+                <div class="add-categoria">
+                    <label for="categoria">Categoria</label>
+                    <input type="text" id="categoria">
                 </div>
-                <button type="submit" class="btn btn-form btn--secundary">Entrar</button>
+                <div class="add-nome">
+                    <label for="nome">Nome do produto</label>
+                    <input type="text" id="nome">
+                </div>
+                <div class="add-preco">
+                    <label for="preco">Preço do produto</label>
+                    <input type="text" id="preco">
+                </div>
+                <div class="add-descricao">
+
+                    <input type="text" id="descricao" placeholder="Descrição do produto">
+                </div>
+                <button type="submit" class="btn-add ">Entrar</button>
             </form>
+
         </section>
 
     </main>
